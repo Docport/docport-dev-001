@@ -1,0 +1,11 @@
+{
+  "dependencies": {},
+  "machinepack": {
+    "machines": ["If", "Ifand", "Ifor"],
+    "machineVersions": {
+      "If": "1.0.0",
+      "Ifand": "1.0.0",
+      "Ifor": "1.0.0"
+    }
+  }
+}

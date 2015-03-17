@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "machine": "^3.0.0",
+    "lodash": "^2.4.1",
+    "hat": "0.0.3",
+    "object-hash": "^0.5.0"
+  },
+  "machinepack": {
+    "machines": ["add", "build-alphanumeric-string", "concat", "convert-to-camel-case", "convert-to-number", "convert-to-string", "create-array", "create-dictionary", "dereference", "divide", "generate-random-integer", "generate-unique-token", "index-of", "hash-dictionary", "Isitdefined_question", "log", "merge", "multiply", "parse-json", "pick-random-item", "search-using-regexp", "subtract"],
+    "machineVersions": {
+      "add": "0.2.0",
+      "build-alphanumeric-string": "0.1.0",
+      "concat": "0.2.0",
+      "convert-to-camel-case": "0.2.0",
+      "convert-to-number": "0.2.0",
+      "convert-to-string": "0.2.0",
+      "create-array": "0.2.0",
+      "create-dictionary": "0.2.0",
+      "dereference": "0.2.0",
+      "divide": "0.2.0",
+      "generate-random-integer": "0.2.0",
+      "generate-unique-token": "0.2.0",
+      "index-of": "0.2.0",
+      "hash-dictionary": "0.2.0",
+      "Isitdefined_question": "0.0.0",
+      "log": "0.2.0",
+      "merge": "0.2.0",
+      "multiply": "0.2.0",
+      "parse-json": "0.2.0",
+      "pick-random-item": "0.2.0",
+      "search-using-regexp": "0.2.0",
+      "subtract": "0.2.0"
+    }
+  }
+}
