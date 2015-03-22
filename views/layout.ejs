@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Treeline Admin UI</title>
+    <title>Docport Admin UI</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -23,9 +23,14 @@
       <!-- Begin page content -->
       <div class="container" ng-app="Admin">
         <div class="page-header">
-          <h1>Admin Panel</h1>
+          <a href="/tables">
+          <h1>
+            <img src="https://5c4bf2fef594e55677406c2676d435fcc21b32bb.googledrive.com/host/0B9LVk4xbDIJTM05fN0dacVVnYzg" alt="Docport svg logo"/>
+            Admin Panel
+          </h1>
+          </a>
           <% if(req.session.loggedIn) { %>
-          <a href="/logout" class="btn btn-warning">Logout</a>
+          <a href="/logout" class="btn btn-warning logout-btn">Logout</a>
           <%} %>
         </div>
 
@@ -39,6 +44,7 @@
     <div id="footer">
       <div class="container">
         <p class="muted credit">Built with <a href="https://treeline.io">Treeline</a>.</p>
+        <p class="muted credit">&copy;2015 Docport </a></p>
       </div>
     </div>
 

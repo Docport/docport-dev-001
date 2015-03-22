@@ -1,6 +1,8 @@
 module.exports.routes = {
-  "post /signup": "SignupController.create",
+  "get /list-users": "List-usersController.find",
   "get /tables": "TablesController.find",
+  "get /signup": "SignupController.get_find",
+  "post /signup": "SignupController.post_create",
   "post /login": "LoginController.post_create",
   "get /logout": "LogoutController.find",
   "get /": "Home$Controller.find",
